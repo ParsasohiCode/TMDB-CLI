@@ -1,6 +1,7 @@
 # 🎬 TMDB-CLI
 
 > **A vibrant command-line tool to explore movies, powered by [TMDB](https://www.themoviedb.org/)!**
+> **Project idea from [Roadmap.sh].(https://roadmap.sh/projects/tmdb-cli)**
 
 ---
 
