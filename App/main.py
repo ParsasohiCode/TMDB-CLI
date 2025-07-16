@@ -1,10 +1,11 @@
 import requests
 import cmd
-from colorama import Fore, Back, Style
+from colorama import Fore, Style
 
 headers = {
   "accept": "application/json",
-  "Authorization": "Bearer eyJhbGciOiJIUzI1NiJ9.eyJhdWQiOiIzYjM0MGE1OTdkYzVlYTg1M2NlZTY1NjNjNzA3ZTIzYSIsIm5iZiI6MTc0NjIxMzQwMy4xOTEsInN1YiI6IjY4MTUxYTFiMjIxZGYyNGQ3NzkwN2UwNSIsInNjb3BlcyI6WyJhcGlfcmVhZCJdLCJ2ZXJzaW9uIjoxfQ.mpPjU8LWNt6T2O630Ok1VAJCDyPFTiQJuRiuIHn2kPA"
+  # use your own API Read Access Token here
+  "Authorization": ""
 }
 
 
