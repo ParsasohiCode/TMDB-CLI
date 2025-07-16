@@ -1,11 +1,18 @@
 import requests
 import cmd
 from colorama import Fore, Style
+import os
+from dotenv import load_dotenv
+
+# Load environment variables from .env file
+load_dotenv()
+# Get the API Read Access Token from environment variables
+api_read_access_token = os.getenv("API_READ_ACCESS_TOKEN")
 
 headers = {
   "accept": "application/json",
   # use your own API Read Access Token here
-  "Authorization": ""
+  "Authorization": api_read_access_token
 }
 
 
