@@ -37,6 +37,8 @@ pip install requirements.txt
 # 3️⃣ Set your TMDB API key
 get you API key from https://www.themoviedb.org
 
-# 4️⃣ Run the CLI and enjoy!
+# 4️⃣ Set your access token in .env file
+
+# 5️⃣ Run the CLI and enjoy!
 python main.py
 ```
