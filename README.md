@@ -29,27 +29,14 @@ Whether you're a movie buff or just need quick info, TMDB-CLI makes it fast, fun
 
 ```bash
 # 1️⃣ Clone the repository
-git clone https://github.com/your-username/TMDB-CLI.git
+git clone https://github.com/ParsasohiCode/TMDB-CLI
 
 # 2️⃣ Install dependencies
-npm install
+pip install requirements.txt
 
 # 3️⃣ Set your TMDB API key
-export TMDB_API_KEY=your_api_key_here
+get you API key from https://www.themoviedb.org
 
 # 4️⃣ Run the CLI and enjoy!
-npm start
+python main.py
 ```
-
----
-
-## 🌈 Screenshots
-
-![TMDB-CLI Demo](https://raw.githubusercontent.com/your-username/TMDB-CLI/main/demo.gif)
-
----
-
-## 📚 License
-
-MIT © Your
-
