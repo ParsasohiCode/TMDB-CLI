@@ -20,7 +20,7 @@ Whether you're a movie buff or just need quick info, TMDB-CLI makes it fast, fun
 
 ## 🛠️ Requirements
 
-- [Node.js](https://nodejs.org/) (or Python, depending on your implementation)
+- Python3 or above
 - TMDB API key ([Get yours here](https://www.themoviedb.org/settings/api))
 
 ---
