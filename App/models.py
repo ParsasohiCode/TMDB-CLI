@@ -8,11 +8,12 @@ from dotenv import load_dotenv
 load_dotenv()
 # Get the API Read Access Token from environment variables
 api_read_access_token = os.getenv("API_READ_ACCESS_TOKEN")
+token = f"Bearer {api_read_access_token}"
 
 headers = {
   "accept": "application/json",
   # use your own API Read Access Token here
-  "Authorization": api_read_access_token
+  "Authorization": token
 }
 
 
